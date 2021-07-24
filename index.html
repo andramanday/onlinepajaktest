@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Pajak Test</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="container">
+            <div class="input-container">
+                <h2>EMPLOYEE TAX CALCULATE</h2>
+            </div>
+            <div class="input-container">
+                <label>Employe Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="input-container">
+                <label>Employe income</label>
+                <input type="number" id="income">
+            </div>
+            <div class="input-container">
+                <label>Tax reliefs</label>
+                <select id="relief">
+                    <option value="TK0">TK0 - Single</option>
+                    <option value="K0">K0 - Married with no dependant</option>
+                    <option value="K1">K1 - Married with 1 dependant</option>
+                    <option value="K2">K2 - Married with 2 dependants</option>
+                    <option value="K3">K3 - Married with 3 dependants</option>
+                  </select>
+            </div>
+            <div class="input-container" >
+                <button id="btnCalculate">Calculate</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="input-container">
+                <h3>TAX CALCULATION RESULT</h3>
+            </div>
+            <hr/>
+            <div class="out-container">
+                <label>NAMA </label>:
+                <p id="nama-output"></p>
+            </div>
+            <div class="out-container">
+                <label>INCOME </label>:
+                <p id="income-output"></p>
+            </div>
+            <div class="out-container">
+                <label>RELIEF </label>:
+                <p id="relief-output"></p>
+            </div>
+            <div class="out-container">
+                <label>TAXABLE </label>:
+                <p id="taxableincome-output"></p>
+            </div>
+            <div class="out-container">
+                <label>TAX </label>:
+                <p id="taxincome-output"></p>
+            </div>
+            <hr/>
+            <div class="detail-container">
+                <h3 style="margin: 0; padding: 0;">TAXABLE FORMULA</h3>
+                <div id="taxformula-output"></div>
+            </div>
+            <hr/>
+        </div>
+    </div>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>

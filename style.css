@@ -1,0 +1,90 @@
+@import url('//fonts.googleapis.com/css?family=Nunito:400,600,700,800');
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ececec;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito", 'Segoe UI', 'Open Sans', arial, Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(50,50,50);
+}
+
+.container{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out-container p{
+    width: 300px;
+    margin: 10px 0 0 10px;
+    text-align: right;
+    justify-content: right;
+}
+
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.out-container label{
+    flex: 1;
+}
+
+.input-container label{
+    flex: 1;
+    margin: 10px;
+    height: 20px;
+}
+
+input{
+    margin: 10px;
+    height: 20px;
+    border: 1px #444444 solid;
+    border-radius: 10px;
+    width: 200px;
+}
+select{
+    margin: 10px;
+    height: 25px;
+    border: 1px #444444 solid;
+    border-radius: 10px;
+    width: 206px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+button{
+    border: 1px #444444 solid;
+    border-radius: 15px;
+    text-decoration: none;
+    background: rgb(83, 190, 83);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        background-color: white;
+        padding: 20px;
+        width: 30vw;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .group-input{
+            display: flex;
+            padding-bottom: 10px;
+            justify-content: center;
+            align-items: center;
+
+            label{
+                width: 30%;
+                height: 30px;
+            }
+
+            .data-input{
+                height: 30px;
+                width: 70%;
+                border-radius: 5px;
+                border:rgb(27, 27, 27) 1px solid;
+            }
+
+            .output-label{
+                width: 40%;
+            }
+            .output-titik{
+                width: 5%;
+            }
+            .data-output{
+                width: 55%;
+                text-align: right;
+            }
+
+        }
+        button{
+            margin-top: 10px;
+            height: 50px;
+        }
+    }
+}
